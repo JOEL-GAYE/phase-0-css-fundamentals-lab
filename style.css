@@ -3,3 +3,42 @@ body {
   height: 100%;
   margin: 0;
 }
+h1{
+  display: flex;
+  justify-content: center;
+}
+nav{
+  display: flex;
+  justify-content: center;
+  background-color: grey;
+  padding: 10px;
+  border: 10px;
+
+}
+.img{
+  border-image-width: 20px;
+  display: flex;
+  height: 70%;
+  width: 60%;
+  border-image-width: 20px;
+ 
+}
+#details{
+  display: flex;
+  justify-content: stretch;
+  background-color:red;
+  justify-content: space-between;
+  /* float: left; */
+}
+#featured-property > img{
+  display: flex; 
+  justify-content: center;
+}
+#featured-property > figure > figcaption{
+  display: flex;
+  justify-content: center;
+}
+#para1{
+  display: flex;
+  justify-content: center;
+}
